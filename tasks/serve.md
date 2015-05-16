@@ -2,7 +2,7 @@
 
 ## Implementation status
 
-### Gulp: None
+### Gulp: Implemented
 ### Grunt: None
 
 ## Subtasks

@@ -3,7 +3,8 @@
 ## Tasks
 * [styles](tasks/styles.md)
 * [scripts](tasks/scripts.md)
-* connect
+* [connect](tasks/connect.md)
+* [nodemon](tasks/nodemon.md)
 * [serve](tasks/serve.md)
 * build
 

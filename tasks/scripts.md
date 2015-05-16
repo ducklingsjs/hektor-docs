@@ -2,7 +2,7 @@
 
 ## Implementation status
 
-### Gulp: Partially
+### Gulp: Implemented
 ### Grunt: None
 
 ## Subtasks
@@ -22,7 +22,7 @@
     * default: ``"main.js"``
   * moduleSystem
     * default: ``"browserify"``
-    * possible: ``"browserify"``, ``"requirejs"``
+    * possible: ``"browserify"`` (future: ``null``, ``"requirejs"``)
   * transpiler
     * default: ``null``
     * possible: ``null``, ``"babel"``
