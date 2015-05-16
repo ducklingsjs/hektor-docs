@@ -1,6 +1,9 @@
 # styles
 
-## Status: Partially implemented
+## Implementation status
+
+### Gulp: Implemented
+### Grunt: None
 
 ## Subtasks
 
@@ -11,13 +14,13 @@
 
   * src
     * entry point
-    * default: {app}/styles/main.scss
+    * default: ``"<%= paths.app %>/styles/main.scss"``
   * includePaths
     * paths that are automatically included
-    * default: {app}/bower_components
+    * default: ``["<%= paths.app %>/bower_components"]``
   * browsers
     * browser support needed
-    * default: ['last 2 versions', 'ie 10']
+    * default: ``['last 2 versions', 'ie 10']``
   * dest
     * destination path
-    * default: .tmp/styles
+    * default: ``".tmp/styles"``

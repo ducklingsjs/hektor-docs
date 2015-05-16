@@ -1,6 +1,9 @@
 # scripts
 
-## Status: Not yet implemented
+## Implementation status
+
+### Gulp: Partially
+### Grunt: None
 
 ## Subtasks
 
@@ -13,31 +16,33 @@
 
   * src
     * entry point
-    * default: {app}/scripts/main.js
+    * default: ``"<%= paths.app %>/scripts/main.js"``
   * filename
     * destination filename
-    * default: main.js
+    * default: ``"main.js"``
   * moduleSystem
-    * default: browserify
-    * possible: browserify, requirejs
+    * default: ``"browserify"``
+    * possible: ``"browserify"``, ``"requirejs"``
   * transpiler
-    * default: none
-    * possible: none, babel
+    * default: ``null``
+    * possible: ``null``, ``"babel"``
   * templates
-    * default: handlebars
+    * default: ``"handlebars"``
   * dest
     * destination path
-    * default: .tmp/scripts
+    * default: ``".tmp/scripts"``
   * debug
     * should the sourcemaps be generated
-    * default: false
+    * default: ``false``
   * moduleSystemConfig
-    * aliasify
-      * options passed to aliasify module (if browserify used)
-      * default: {}
+    * aliases
+      * used with ``browserify``
+      * options passed to aliasify module
+      * default: ``{}``
     * nodePath
-      * used node paths for browserify
-      * default: process.env.NODE_PATH:./{app}/scripts
+      * used with: ``browserify``
+      * used node paths
+      * default: ``process.env.NODE_PATH.split(":").concat("/<%= paths.app %>/scripts")``
   * transpilerOptions
     * options passed to transpiler module (if used)
-    * default: {}
+    * default: ``{}``
