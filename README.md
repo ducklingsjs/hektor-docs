@@ -4,5 +4,36 @@
 * [styles](tasks/styles.md)
 * [scripts](tasks/scripts.md)
 * connect
-* serve
+* [serve](tasks/serve.md)
 * build
+
+## How to rename the task (or have multiple similar tasks)
+In some cases you might need multiple similar tasks (e.g. connect-dev, connect-test, connect-dist).
+Every task can be renamed, so there shouldn't be a problem creating multiple tasks with different names.
+When you are defining the config of the task, use the desired task name as the object key, but set the moduleName property to the name of the task module.
+
+### Example
+
+    {
+      connect: {}, // Default options
+      'connect-dist': {
+        moduleName: 'connect',
+        root: ['dist'],
+        port: 8080,
+        livereload: false
+      },
+
+      serve: {}, // Will default to 'connect'
+      default: {
+        // Use serve as default task
+        moduleName: 'serve',
+
+        // Serve the dist version
+        server: 'connect-dist'
+      }
+    }
+
+
+### Status
+
+Implemented in hektor-gulp
