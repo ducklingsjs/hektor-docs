@@ -5,13 +5,6 @@
 ### Gulp: Implemented
 ### Grunt: None
 
-## Subtasks
-
-  * browserify
-  * babelify
-  * aliasify
-  * hbsfy
-
 ## Options
 
   * src

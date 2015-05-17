@@ -6,6 +6,7 @@
 * [connect](tasks/connect.md)
 * [nodemon](tasks/nodemon.md)
 * [serve](tasks/serve.md)
+* [codecheck](tasks/codecheck.md)
 * build
 
 ## How to rename the task (or have multiple similar tasks)
