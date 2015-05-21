@@ -19,6 +19,9 @@
   * transpiler
     * default: ``null``
     * possible: ``null``, ``"babel"``
+  * bower
+    * should bower script be included (if browserify is used)
+    * default: ``false``
   * templates
     * default: ``"handlebars"``
   * dest
