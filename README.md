@@ -7,6 +7,8 @@
 * [nodemon](tasks/nodemon.md)
 * [serve](tasks/serve.md)
 * [codecheck](tasks/codecheck.md)
+* [exec](tasks/exec.md)
+* [plato](tasks/plato.md)
 * build
 
 ## How to rename the task (or have multiple similar tasks)
