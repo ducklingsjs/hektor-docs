@@ -7,6 +7,8 @@
 * [nodemon](tasks/nodemon.md)
 * [serve](tasks/serve.md)
 * [codecheck](tasks/codecheck.md)
+* [minify](tasks/minify.md)
+* [clean](tasks/clean.md)
 * [exec](tasks/exec.md)
 * [plato](tasks/plato.md)
 * build
