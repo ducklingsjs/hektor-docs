@@ -23,3 +23,14 @@
   * searchPath
     * folder where the linked css and script files can be found
     * default: ``".tmp"``
+
+## Options in HTML files
+
+Example: [hektor-projects](/infinumjs/hektor-projects/blob/master/backbone.marionette-es6-gulp/index.html)
+
+  * concatinate css between comments:
+    * ``<!-- build:css styles.css --><!-- endbuild -->``
+    * ``styles.css`` defines where the concatenated file will be saved inside of the dest folder
+  * concatinate scripts between comments:
+    * ``<!-- build:js scripts.js --><!-- endbuild -->``
+    * ``scripts.js`` defines where the concatenated file will be saved inside of the dest folder
