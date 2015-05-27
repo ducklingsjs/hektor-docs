@@ -26,7 +26,7 @@
 
 ## Options in HTML files
 
-Example: [hektor-projects](/infinumjs/hektor-projects/blob/master/backbone.marionette-es6-gulp/index.html)
+Example: [hektor-projects](https://github.com/infinumjs/hektor-projects/blob/master/backbone.marionette-es6-gulp/app/index.html)
 
   * concatinate css between comments:
     * ``<!-- build:css styles.css --><!-- endbuild -->``
