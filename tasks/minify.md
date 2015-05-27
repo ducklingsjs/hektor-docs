@@ -22,7 +22,7 @@
     * default: ``"<%= paths.dist %>"``
   * searchPath
     * folder where the linked css and script files can be found
-    * default: ``".tmp"``
+    * default: ``"<%= paths.tmp %>"``
 
 ## Options in HTML files
 

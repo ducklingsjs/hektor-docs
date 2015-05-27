@@ -23,4 +23,4 @@
     * default: ``['last 2 versions', 'ie 10']``
   * dest
     * destination path
-    * default: ``".tmp/styles"``
+    * default: ``"<%= paths.tmp %>/styles"``

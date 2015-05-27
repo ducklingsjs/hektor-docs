@@ -16,7 +16,7 @@
   * ignore
     * paths that should be ignored
     * default: ``[
-      '.tmp/',
+      '<%= paths.tmp %>/',
       '<%= paths.app %>/',
       '<%= paths.dist %>/',
       'node_modules/'

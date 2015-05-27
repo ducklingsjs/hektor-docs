@@ -26,7 +26,7 @@
     * default: ``"handlebars"``
   * dest
     * destination path
-    * default: ``".tmp/scripts"``
+    * default: ``"<%= paths.tmp %>/scripts"``
   * debug
     * should the sourcemaps be generated
     * default: ``false``
