@@ -7,7 +7,7 @@
 
 ## Subtasks
 
-  * sass
+  * node-sass
   * autoprefixer
 
 ## Options
@@ -24,3 +24,11 @@
   * dest
     * destination path
     * default: ``"<%= paths.tmp %>/styles"``
+  * loco
+    * if [loco-sass](https://github.com/DarkoKukovec/loco-sass) should be used
+    * NOTE: Autporefixer doesn't work yet with loco-sass in this task
+    * default: ``null``
+    * dest
+      * destination where the mapping files should be saved
+    * format
+      * [format](https://github.com/DarkoKukovec/loco-sass#options) of the local selectors
