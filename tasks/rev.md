@@ -2,14 +2,14 @@
 
 ## Implementation status
 
-### Gulp: None
+### Gulp: Implemented
 ### Grunt: None
 
 ## Options
 
   * src
     * source path
-    * default: ``"<%= paths.dist %>/**(?!html)$"``
+    * default: ``['<%= paths.dist %>/**', '!<%= paths.dist %>/**.html']``
     * default value explanation: all files in dist, except for the ones ending in .html
   * dest
     * destination folder

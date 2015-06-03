@@ -12,6 +12,7 @@
 * [exec](tasks/exec.md)
 * [plato](tasks/plato.md)
 * [replace](tasks/replace.md)
+* [rev](tasks/rev.md)
 * build
 
 ## How to rename the task (or have multiple similar tasks)
