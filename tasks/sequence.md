@@ -14,4 +14,4 @@
 
 ## Common use case
 
-Most common use cases will be to make complex tasks, e.g. build, that make use of all the other tasks. To use more sequence tasks, check out how to rename the tasks in the main [README](../README.md).
+Most common use cases will be to make complex tasks, e.g. build, that make use of all the other tasks. To use more sequence tasks, check out how to rename the tasks in the [main README](../README.md#how-to-rename-the-task-or-have-multiple-similar-tasks).

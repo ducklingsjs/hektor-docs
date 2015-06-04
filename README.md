@@ -38,6 +38,11 @@ When you are defining the config of the task, use the desired task name as the o
 
         // Serve the dist version
         server: 'connect-dist'
+      },
+
+      build: {
+        moduleName: 'sequence',
+        tasks: ['styles', 'scripts', 'codecheck', 'minify', 'rev']
       }
     }
 
