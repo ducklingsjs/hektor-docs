@@ -13,7 +13,7 @@
 * [plato](tasks/plato.md)
 * [replace](tasks/replace.md)
 * [rev](tasks/rev.md)
-* build
+* [sequence](tasks/sequence.md)
 
 ## How to rename the task (or have multiple similar tasks)
 In some cases you might need multiple similar tasks (e.g. connect-dev, connect-test, connect-dist).
