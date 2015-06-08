@@ -2,7 +2,8 @@
 
 ## Implementation status
 
-### Gulp: Implemented
+### Gulp: Partially
+Templates are not yet supported when no module system is used
 ### Grunt: None
 
 ## Options
@@ -15,7 +16,7 @@
     * default: ``"main.js"``
   * moduleSystem
     * default: ``"browserify"``
-    * possible: ``"browserify"`` (future: ``null``, ``"requirejs"``)
+    * possible: ``"browserify"``, ``null`` (future: ``"requirejs"``)
   * transpiler
     * default: ``null``
     * possible: ``null``, ``"babel"``
