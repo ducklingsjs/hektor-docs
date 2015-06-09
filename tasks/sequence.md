@@ -10,6 +10,7 @@
   * tasks
     * array of tasks that should be executed
     * tasks will be executed one after other
+    * if multiple tasks are inside of an array, they will be executed in parallel, e.g. ``['lint', ['styles', 'scripts'], 'minify']`` will execute styles and scripts tasks in parallel, but the minify task will wait for both of them to finish
     * default: ``[]``
 
 ## Common use case
