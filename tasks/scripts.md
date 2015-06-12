@@ -2,8 +2,7 @@
 
 ## Implementation status
 
-### Gulp: Partially
-Templates are not yet supported when no module system is used
+### Gulp: Implemented
 ### Grunt: None
 
 ## Options
