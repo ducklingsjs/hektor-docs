@@ -42,3 +42,10 @@
   * transpilerOptions
     * options passed to transpiler module (if used)
     * default: ``{}``
+  * templateOptions (not used with browserify)
+    * src
+      * path where the template file will be saved
+      * default: ``"<%= paths.app %>/scripts/templates/**/*.hbs"``,
+    * namespace
+      * the valiable name used for templates
+      * default: ``"JST"``
