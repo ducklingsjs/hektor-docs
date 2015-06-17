@@ -14,6 +14,7 @@
 * [replace](tasks/replace.md)
 * [rev](tasks/rev.md)
 * [sequence](tasks/sequence.md)
+* [copy](tasks/copy.md)
 
 ## How to rename the task (or have multiple similar tasks)
 In some cases you might need multiple similar tasks (e.g. connect-dev, connect-test, connect-dist).
