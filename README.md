@@ -22,6 +22,10 @@ In some cases you might need multiple similar tasks (e.g. connect-dev, connect-t
 Every task can be renamed, so there shouldn't be a problem creating multiple tasks with different names.
 When you are defining the config of the task, use the desired task name as the object key, but set the moduleName property to the name of the task module.
 
+## Shorthand for the sequence task
+
+TODO
+
 ### Example
 
     {
