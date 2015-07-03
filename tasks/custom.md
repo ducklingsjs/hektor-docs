@@ -10,6 +10,10 @@
   * deps
     * array of dependencies that should be loaded
     * default: ``[]``
+  * before
+    * tasks that will be executed before this task
+    * gulp: tasks will be executed in parallel, but all of them are guaranteed to be done before this task is started
+    * default: ``[]``
   * task
     * function that will be called when the task is called
     * default: ``function() {}``
