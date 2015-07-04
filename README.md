@@ -24,7 +24,17 @@ When you are defining the config of the task, use the desired task name as the o
 
 ## Shorthand for the sequence task
 
-TODO
+Since the [sequence](tasks/sequence.md) task has only one option - an array of tasks that should be executed, and it's a common task, there is a shorthand to define a sequence task.
+Insted of this:
+
+    someTaskName: {
+      moduleName: "sequence",
+      tasks: ["styles", "scripts"]
+    }
+    
+You can do this:
+
+    someTaskName: ["styles", "scripts"]
 
 ### Example
 
