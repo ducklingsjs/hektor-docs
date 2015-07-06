@@ -35,6 +35,26 @@ Insted of this:
 You can do this:
 
     someTaskName: ["styles", "scripts"]
+    
+## Shorthand for the custom task
+
+If you want to use the [custom task](tasks/custom.md), and don't need the before option, you can use the shorthand. If you have any dependencies, you will also need to load them from inside of the task function.
+Instead of this:
+
+    someTaskName: {
+      moduleName: 'custom',
+      deps: ['a', 'b'],
+      task: function(H, options, done) {
+        // Do some stuff
+      }
+    }
+    
+You can do this:
+
+    someTaskName: function(H, options, done) {
+      H.loadDeps(['a', 'b']);
+      // Do some stuff
+    }
 
 ### Example
 
