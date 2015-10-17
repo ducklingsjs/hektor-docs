@@ -15,6 +15,7 @@
 * [rev](tasks/rev.md)
 * [sequence](tasks/sequence.md)
 * [copy](tasks/copy.md)
+* [zip](tasks/zip.md)
 * [custom](tasks/custom.md)
 
 ## How to rename the task (or have multiple similar tasks)
@@ -31,11 +32,11 @@ Insted of this:
       moduleName: "sequence",
       tasks: ["styles", "scripts"]
     }
-    
+
 You can do this:
 
     someTaskName: ["styles", "scripts"]
-    
+
 ## Shorthand for the custom task
 
 If you want to use the [custom task](tasks/custom.md), and don't need the before option, you can use the shorthand. If you have any dependencies, you will also need to load them from inside of the task function.
@@ -48,7 +49,7 @@ Instead of this:
         // Do some stuff
       }
     }
-    
+
 You can do this:
 
     someTaskName: function(H, options, done) {
